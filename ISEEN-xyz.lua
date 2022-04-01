@@ -1,5 +1,5 @@
 if _G.Attackh2 == true then
-while _G.Attackh2 do wait(0.5)
+while _G.Attackh2 do wait()
     
 local requestwebhook = syn.request({
     Url = _G.Url1,
