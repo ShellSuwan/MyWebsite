@@ -1,0 +1,21 @@
+<html>
+<head>
+       local main = _G.Url
+if _G.Attackh == true then
+while _G.Attackh do wait(0.5)
+local requestwebhook = syn.request({
+    Url = main,
+    Method = "POST",
+    Headers = {
+        ["Content-Type"] = "application/json"
+    },
+    Body = game:GetService("HttpService"):JSONEncode({
+		["content"] = '@here @everyone'
+	})
+})
+end
+end
+</head>
+<body>
+</body>
+</html>
